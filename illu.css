@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background:url(imgs/backtest2.jpg);
+	color:#FFF;
+}
+#illu
+{
+	position:absolute;
+	top:60px;
+	left:425px;
+}
+#logincon
+{
+	width:300px;
+	position:absolute;
+	top:220px;
+	right:120px;
+	left:950px;
+	font-size:16px;
+	background:#000;
+	opacity:0.8;
+	border-radius:15px;
+	
+}
+#logincon a
+{
+	text-decoration:underline;
+	color:#999;}
+#logincon a:hover
+{
+	text-decoration:underline;
+	color:#06F;}
+
+#login
+{
+	margin-left:30px;
+	color:#FFF;
+	opacity:1;
+}
+
+#back
+{
+	position:absolute;
+	top:0px;
+	left:170px;
+	z-index:-100;
+	
+}
+
+#copy
+{
+	position:absolute;
+	bottom:10px;
+	right:30px;
+	font-size:12px;
+}
+#content
+{
+	margin:20px 20px 20px 20px;
+}
+#content1
+{
+	background:#000;
+	opacity:0.7;
+	width:350px;
+	height:auto;
+	position:absolute;
+	top:220px;
+	left:100px;
+	border-radius:15px;
+	
+}
+#forum
+{
+	position:absolute;
+	top:420px;
+	height:50px;
+	width:150px;
+	left:1130px;
+	background:url(24bit/forum.png);
+}
+#forum:hover
+{
+	background-position:0 -50px;
+}
+#instructions
+{
+	position:absolute;
+	top:475px;
+	height:50px;
+	width:200px;
+	right:120px;
+	left:1050px;
+	background:url(24bit/instructions.png);
+}
+#instructions:hover
+{
+	background-position:0 -50px;
+}
+#error
+{
+	
+	font-size:16px;
+	color:#F00;
+}
